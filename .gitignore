@@ -3,8 +3,11 @@ target
 *.rs.bk
 .DS_Store
 .env
+temp_auto_push.bat
 .env.*
 /target/
 /target_local/
 .md-*
 hidden
+.gitignore
+branch_structure.json

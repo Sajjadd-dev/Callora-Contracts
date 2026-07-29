@@ -21,6 +21,7 @@ members = [
     "contracts/limits",
     "contracts/migrate",
     "contracts/registry",
+    "contracts/rescue",
     "contracts/revenue_pool",
     "contracts/revenue_pool/fuzz",
     "contracts/settlement",
@@ -45,7 +46,6 @@ members = [
 
 default-members = [
     "contracts/admin",
-    "contracts/batch_claim",
     "contracts/checkpoint",
     "contracts/cold",
     "contracts/distribute",
@@ -56,6 +56,7 @@ default-members = [
     "contracts/limits",
     "contracts/migrate",
     "contracts/registry",
+    "contracts/rescue",
     "contracts/revenue_pool",
     "contracts/settlement",
     "contracts/stake",

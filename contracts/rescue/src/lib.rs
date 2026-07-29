@@ -274,7 +274,7 @@ mod test {
         (env, contract_id, admin)
     }
 
-    fn client(env: &Env, contract_id: &Address) -> CalloraRescueClient<'_> {
+    fn client<'a>(env: &'a Env, contract_id: &'a Address) -> CalloraRescueClient<'a> {
         CalloraRescueClient::new(env, contract_id)
     }
 
