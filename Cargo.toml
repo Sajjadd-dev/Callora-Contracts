@@ -38,7 +38,9 @@ members = [
     "contracts/hot",
     "contracts/recipient",
     "contracts/recipient/fuzz",
-    "contracts/refund",
+    "contracts/fee",
+    "contracts/admin",
+    "contracts/yield",
 ]
 
 default-members = [
